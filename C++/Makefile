@@ -31,13 +31,9 @@ S2       = sampleTESTMODE.o
 
 OS       := $(shell uname -s)
 
-libsoral.a: $(OBJS)
-ifeq ($(OS),"Windows*")
-	echo "Don't know how to make a library on Windows yet."
-else
+libSoral.a: $(OBJS)
 	echo "Assuming this is *nix. Building libsoral.a"
 	ar -r libSoral.a $(OBJS)
-endif
 
 # To use the library:  $(CXX) mycode.cc -o mycode -lSoral
 # If the library isn't in the current dir (or path), you'll need to 
