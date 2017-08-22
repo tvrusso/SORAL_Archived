@@ -15,3 +15,10 @@ simply taken an old copy (lacking all subversion history) and uploaded
 it to github.  I claim no ownership of this code, and have contributed
 essentially nothing to it but one bug fix.  I find it very useful,
 however, and don't want it lost for real.
+
+## This repo is now just a historical artifact
+
+Since I have created this archived repository, Charles Twardy has
+created an official repository for SORAL, which may be found on github
+at https://github.com/ctwardy/soral.  All future official development
+and maintenance of SORAL will occur in that repo.
